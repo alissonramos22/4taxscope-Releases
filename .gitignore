@@ -1,0 +1,10 @@
+# Ignorar arquivos temporários e de build
+Thumbs.db
+desktop.ini
+.DS_Store
+*.tmp
+*.log
+
+# Opcional: Se os executáveis pesados forem enviados via GitHub Releases Assets (upload via web/gh release),
+# você pode descomentar a linha abaixo para não comitar o .exe diretamente no histórico git:
+# *.exe
